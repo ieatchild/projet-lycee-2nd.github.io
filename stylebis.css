@@ -1,0 +1,222 @@
+/* header here */
+ body {
+     background-color: #24252a;
+ }
+/*
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+    font-family: sans-serif;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+    height: 150px;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+    font-size: 20px;
+}
+
+.nav__links li a:hover {
+    color: #0088a9;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+} */
+
+/* Header then */
+
+
+/*
+#reas-habitation {
+    background-color: transparent;
+}
+
+.reas-habitation-centre {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.reas-habitation-general {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    flex-wrap: wrap;
+    max-width: 1596px;
+    min-width: 1064px;
+}
+
+.reas-habitation-unite {
+    position: relative;
+    width: 512px;
+    height: 512px;
+    margin: 10px;
+    background-color: transparent;
+}
+
+.reas-habitation-unite img {
+    width: 512px;
+    height: 512px;
+    transition: all 0.3s ease 0s;
+    background-color: #000000;
+}
+
+.reas-habitation-bords {
+    position: absolute;
+    width: 512px;
+    height: 512px;
+    border: 3px solid #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0%;
+    transition: all 0.2s ease 0s;
+    background-color: transparent;
+}
+
+.reas-habitation-texte {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0%;
+    transition: all 0.2s ease 0s;
+    color: #fff;
+    background-color: transparent;
+    font-size: 18px;
+}
+
+.reas-habitation-unite:hover img {
+    opacity: 60%;
+}
+
+.reas-habitation-unite:hover .reas-habitation-bords {
+    width: 384px;
+    height: 384px;
+    opacity: 100%;
+}
+
+.reas-habitation-unite:hover .reas-habitation-texte {
+    opacity: 100%;
+}
+*/
+
+
+
+
+#reas-habitation {
+    background-color: #24252a;
+  }
+  
+  .reas-habitation-centre {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+  }
+  
+  .reas-habitation-general {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    flex-wrap: wrap;
+    max-width: 1596px;
+    min-width: 1064px;
+  }
+  
+  .reas-habitation-unite {
+    position: relative;
+    width: 512px;
+    height: 512px;
+    margin: 10px;
+    background-color: transparent;
+    background-color: #000000;
+  }
+  
+  .reas-habitation-unite img {
+    width: 512px;
+    height: 512px;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .reas-habitation-bords {
+    position: absolute;
+    width: 512px;
+    height: 512px;
+    border: 3px solid #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0%;
+    transition: all 0.2s ease 0s;
+    background-color: transparent;
+  }
+  
+  .reas-habitation-texte {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0%;
+    transition: all 0.2s ease 0s;
+    color: #fff;
+    background-color: transparent;
+    font-size: 18px;
+  }
+  
+  .reas-habitation-unite:hover img {
+    opacity: 60%;
+  }
+  
+  .reas-habitation-unite:hover .reas-habitation-bords {
+    width: 384px;
+    height: 384px;
+    opacity: 100%;
+  }
+  
+  .reas-habitation-unite:hover .reas-habitation-texte {
+    opacity: 100%;
+  }
+  

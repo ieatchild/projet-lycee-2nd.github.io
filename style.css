@@ -233,30 +233,14 @@ button:hover {
     border: 1px solid #fff;
 }
 
-/* section morale */
 
-#morale {
-    padding-top: 150px;
-    display: flex;
-    justify-content: center;
-    font-size: 22px;
-}
 
-#morale p {
-    width: 1350px;
-    color: #fff;
-    text-align: center;
-}
+/* début section reas-portfolio */
 
-#morale p, b, span, .italique {
-    background-color: #24252A;
-}
 
-/* fin section morale */
-
-/* début section réas-portfolio */
 
 .reas-portfolio-centre {
+    padding-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -272,6 +256,7 @@ button:hover {
     width: 480px;
     height: 480px;
     background-color: #000000;
+    margin: 10px;
 }
 
 .reas-portfolio-unite img {
@@ -301,14 +286,15 @@ button:hover {
     transition: all 0.2s ease 0s;
     color: #fff;
     background-color: transparent;
+    font-size: 18px;
 }
 
-img {
+#reas-portfolio img {
     transition: all 0.3s ease 0s;
 }
 
-.reas-portfolio-unite:hover img {
-    opacity: 70%;
+.reas-portfolio-unite:hover #reas-portfolio img {
+    opacity: 60%;
 }
 
 .reas-portfolio-unite:hover .reas-portfolio-bords {
@@ -321,8 +307,107 @@ img {
     opacity: 100%;
 }
 
-/* fin section réas-portfolio */
+/* fin section reas-portfolio */
 
+/* debut de la section reas-habitation */
+
+#reas-habitation {
+    background-color: transparent;
+}
+
+.reas-habitation-centre {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.reas-habitation-general {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    flex-wrap: wrap;
+    max-width: 1596px;
+    min-width: 1064px;
+}
+
+.reas-habitation-unite {
+    position: relative;
+    width: 512px;
+    height: 512px;
+    margin: 10px;
+    background-color: transparent;
+}
+
+.reas-habitation-unite img {
+    width: 512px;
+    height: 512px;
+    transition: all 0.3s ease 0s;
+    background-color: #000000;
+}
+
+.reas-habitation-bords {
+    position: absolute;
+    width: 512px;
+    height: 512px;
+    border: 3px solid #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0%;
+    transition: all 0.2s ease 0s;
+    background-color: transparent;
+}
+
+.reas-habitation-texte {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0%;
+    transition: all 0.2s ease 0s;
+    color: #fff;
+    background-color: transparent;
+    font-size: 18px;
+}
+
+.reas-habitation-unite:hover img {
+    opacity: 60%;
+}
+
+.reas-habitation-unite:hover .reas-habitation-bords {
+    width: 384px;
+    height: 384px;
+    opacity: 100%;
+}
+
+.reas-habitation-unite:hover .reas-habitation-texte {
+    opacity: 100%;
+}
+
+/* fin de la section reas-habitation */
+
+/* section morale */
+
+#morale {
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+}
+
+#morale p {
+    max-width: 1350px;
+    color: #fff;
+    text-align: center;
+}
+
+#morale p, b, span, .italique {
+    background-color: transparent;
+}
+
+/* fin section morale */
 
 /* footer */
 footer {
